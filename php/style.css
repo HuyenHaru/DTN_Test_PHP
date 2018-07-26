@@ -1,0 +1,102 @@
+@CHARSET "ISO-8859-1";
+
+* {
+   margin: 0px;
+   padding: 0px;
+}
+
+.content {
+	margin: auto;
+	width:600px;
+	border:1px solid black;
+	text-align: center;
+
+}
+
+.content h3 {
+	height:30px;
+	/*width:500px;*/
+	color:blue;
+	background-color:#00F5FF;
+	text-align:left;
+	margin-top:0px;
+}
+
+.content .form {
+	position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    /*max-width: 490px;*/
+    margin:5px 5px 5px 5px;
+	
+    text-align: left;
+    border:1px solid #AAAAAA;
+}
+
+/*.content .form .add-form {
+	padding-bottom:5px;
+}*/
+
+.content div.row {
+	margin-top:10px;
+	margin-right:10px;
+}
+
+.content div.row span {
+	display: inline-block;
+	width: 100px;
+	text-align: right;
+	
+}
+
+.content div.row input[type=test] {
+	padding: 3px 5px;
+}
+
+.content div.row input[type=checkbox] {
+	margin: 0px auto 5px 105px;
+}
+
+.content .form1 {
+	position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    /*max-width: 490px;*/
+    margin:5px 5px 5px 5px;
+	
+    text-align: left;
+    border-style:solid;
+	border-width: 1px;
+	border-color:#AAAAAA #AAAAAA black #AAAAAA;
+}
+
+.content .form1 table {
+	border-collapse: collapse;
+	width: 99%;
+	margin: 3px;
+}
+
+.content .form1 table tr:nth-child {
+   background-color: #FFFF99;
+}
+
+.content .form1 td {
+	padding:5px ;	
+    border: 1px solid black;
+	text-align:right;
+}
+
+.content .form1 .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 5px;
+    width: 5px;
+	//color: blue;
+    background-color: #eee;
+}
+
+.content input[type=submit] {
+	margin:10px auto 5px 5px;
+}
+
